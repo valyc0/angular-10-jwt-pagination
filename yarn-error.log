@@ -1,0 +1,71 @@
+Arguments: 
+  /home/gitpod/.nvm/versions/node/v16.13.0/bin/node /home/gitpod/.nvm/versions/node/v16.13.0/bin/yarn install
+
+PATH: 
+  /home/gitpod/.npm-global/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/home/gitpod/.rvm/gems/ruby-2.7.4/bin:/home/gitpod/.rvm/gems/ruby-2.7.4@global/bin:/home/gitpod/.rvm/rubies/ruby-2.7.4/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/ide/bin:/workspace/.cargo/bin:/workspace/.rvm/bin:/workspace/.pip-modules/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/home/gitpod/.nvm/versions/node/v16.13.0/bin:/home/gitpod/.cargo/bin:/usr/games:/usr/games:/home/gitpod/.nvm/versions/node/v16.13.0/bin:/home/gitpod/.rvm/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/gitpod/.cache/yarn/v6/npm-hosted-git-info-3.0.8-6e35d4cc87af2c5f816e4cb9ce350ba87a3f370d-integrity/node_modules/hosted-git-info/CHANGELOG.md' -> '/workspace/angular-10-jwt-authentication-example/node_modules/@angular/cli/node_modules/hosted-git-info/CHANGELOG.md'
+
+npm manifest: 
+  {
+    "name": "angular-jwt-authentication-example",
+    "version": "0.0.0",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve --open",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "^10.0.3",
+      "@angular/common": "^10.0.3",
+      "@angular/compiler": "^10.0.3",
+      "@angular/core": "^10.0.3",
+      "@angular/forms": "^10.0.3",
+      "@angular/platform-browser": "^10.0.3",
+      "@angular/platform-browser-dynamic": "^10.0.3",
+      "@angular/router": "^10.0.3",
+      "rxjs": "^6.5.5",
+      "tslib": "^2.0.0",
+      "zone.js": "^0.10.3"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "^0.1000.1",
+      "@angular/cli": "^10.0.1",
+      "@angular/compiler-cli": "^10.0.3",
+      "@types/node": "^12.11.1",
+      "@types/jasmine": "^3.5.0",
+      "@types/jasminewd2": "^2.0.3",
+      "codelyzer": "^6.0.0-next.1",
+      "jasmine-core": "^3.5.0",
+      "jasmine-spec-reporter": "^5.0.0",
+      "karma": "^5.0.0",
+      "karma-chrome-launcher": "^3.1.0",
+      "karma-coverage-istanbul-reporter": "^3.0.2",
+      "karma-jasmine": "^3.3.0",
+      "karma-jasmine-html-reporter": "^1.5.0",
+      "protractor": "^7.0.0",
+      "ts-node": "^8.3.0",
+      "tslint": "^6.1.0",
+      "typescript": "^4.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
